@@ -1,6 +1,4 @@
 
-//import { boolean } from "yargs"
-
 const misFunciones = require('./basic.test2') 
 
 
@@ -8,6 +6,7 @@ describe ("Tests", () => {
 
     test("Checking types - Test 1", () => {
       const newValue = "This is a string"
+      
       expect(misFunciones.isString(newValue)).toBe(true)
     })
 
@@ -42,7 +41,7 @@ describe ("Tests", () => {
   test("Checking objects", () => {
     const newObject = {
       name: "rodrigo",
-      lastname: "Berasain"
+      
     }
       
     expect(newObject.name).toBe("rodrigo")
