@@ -41,7 +41,7 @@ describe ("Tests", () => {
   test("Checking objects", () => {
     const newObject = {
       name: "rodrigo",
-      
+      lastname: "Berasain"
     }
       
     expect(newObject.name).toBe("rodrigo")
